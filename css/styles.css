@@ -1,0 +1,171 @@
+/* Fonts used:
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Cookie', cursive;
+font-family: 'Old Standard TT', serif;
+*/
+body {
+  margin: 0;
+  /* background-color: #14274e; */
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+#subtitle {
+  color: #f1f6f9;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #394867;
+}
+
+/* Sections */
+
+.colored-sections{
+  background-color: #14274e;
+  color: #9ba4b4;
+}
+
+.white-sections{
+  background-color:white;
+}
+
+/* Headings */
+
+.big-heading{
+    color: #ffffff;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#title .container-fluid{
+  padding:3% 15% 7%;
+  text-align: left;
+}
+
+.navbar {
+  padding-bottom: 3.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #f1f6f9;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.2rem;
+}
+
+.nav-link {
+  color: #9ba4b4;
+  font-weight: 100;
+}
+
+.nav-link:hover {
+  color: #f1f6f9;
+}
+
+.container-fluid {
+  padding:7% 15%;
+}
+
+.row {
+  margin: 0;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 40%;
+  transform: rotate(25deg);
+  right:30%;
+  position:absolute;
+}
+
+#features {
+  position:relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-icon {
+  color: #14274e;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #9ba4b4;
+  transform: scale(1.2);
+}
+
+.testimonial-text {
+  color: #f1f6f9;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* .carousel-item{
+  padding:7% 15%;
+} */
+#press {
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-header{
+  padding:3% 2%;
+}
+
+#cta{
+  background-color: #14274e;
+  color: #f1f6f9;
+}
+
+.social-icon{
+  margin:20px 10px;
+}
+
+@media (max-width:990px){
+  #title .container-fluid{
+    text-align:center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
